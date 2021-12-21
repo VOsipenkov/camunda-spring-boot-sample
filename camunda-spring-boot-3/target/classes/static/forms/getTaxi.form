@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "Pack cash",
+      "type": "textfield",
+      "id": "Field_0v5dikc",
+      "key": "money",
+      "description": "How much cash do you want to bring?",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Where are you headed?",
+      "type": "textfield",
+      "id": "Field_0rmkec7",
+      "key": "country",
+      "description": "Country where are going to?",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Enter price of taxi",
+      "type": "textfield",
+      "id": "Field_0afy0ek",
+      "key": "taxiCost",
+      "description": "for tax reasons"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0b431gq"
+}
